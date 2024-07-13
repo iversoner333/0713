@@ -16,7 +16,7 @@ jobs:
         - name: Run sent mail py
           run: 
             python3 send_mail_test_2_receiver.py
-     bulid2:
+    bulid2:
           name: do job2
           runs-on: ubuntu-latest
           step:
