@@ -10,12 +10,12 @@ jobs:
         runs-on: ubuntu-latest #ubuntu為lunix
         steps:
         - uses: actions/checkout@v2
-        - name: Install package
-          run:
-            pip3 install mediapipe #pip3其中的3是指python3，因為現在是用python 3版本，之前的版本已經被廢除
-        - name: Run test py
+        #- name: Install package
+         # run:
+            #pip3 install mediapipe #pip3其中的3是指python3，因為現在是用python 3版本，之前的版本已經被廢除
+        - name: Run sent mail py
           run: 
-            python3 test.py
+            python3 send_mail_test_2_receiver.py
         - name: Run test2 py
           run:
             python3 test2.py
