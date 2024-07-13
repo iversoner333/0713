@@ -5,7 +5,7 @@ on:
 jobs:
     build: 
         name: do job1
-        runs-on: ubnutu-late #ubnutu為linux常用的版本
+        runs-on: ubnutu-latest #ubnutu為linux常用的版本
         steps:
         - uses: actions/checkout@v2
         - name: Run test.py
