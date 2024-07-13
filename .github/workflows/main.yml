@@ -16,7 +16,13 @@ jobs:
         - name: Run sent mail py
           run: 
             python3 send_mail_test_2_receiver.py
-        - name: Run test2 py
-          run:
-            python3 test2.py
+     bulid2:
+          name: do job2
+          runs-on: ubuntu-latest
+          step:
+          - uses: actions/checkout@v2
+          - name: Run test 2 py
+            run:
+              python3 test2.py
+           
     
