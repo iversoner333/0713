@@ -7,11 +7,11 @@ on:
 jobs:
     build: 
         name: do job1
-        runs-on: ubuntu-latest 
+        runs-on: ubuntu-latest #ubuntu為lunix
         steps:
         - uses: actions/checkout@v2
         - name: Run test py
-          run: |
+          run: 
             python3 test.py
         - name: Run test2 py
           run:
