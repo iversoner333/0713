@@ -6,3 +6,5 @@ print(c)
 a=[1,2,4,3]
 for i in a:
     print(i)
+
+    
