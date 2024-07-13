@@ -1,3 +1,5 @@
+#設定github自動執行的動作
+
 name: Run my python
 on:
     push:
@@ -9,6 +11,9 @@ jobs:
         steps:
         - uses: actions/checkout@v2
         - name: Run test py
-          run:
+          run: |
             python3 test.py
+        - name: Run test2 py
+          run:
+            python3 test2.py
     
